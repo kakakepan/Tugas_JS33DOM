@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Event</title>
+</head>
+<body>
+    <input class="tugas" type="text" value="Nama Depan">
+    <br>
+    <input class="tugas" type="text" value="Nama Belakang">
+    <br>
+    <input class="tugas" type="text" value ="Hobi">
+    <br>
+
+    <button type="button" onclick="jalanScript()">Jalankan</button>
+    <script type="text/javascript">
+        function jalanScript() {
+            console.log(document.getElementsByClassName("tugas"));
+            
+        }
+    </script>
+</body>
+</html>
